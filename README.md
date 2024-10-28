@@ -34,7 +34,7 @@ To install the Zillow Scraper module, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/zillow_scraper.git
+   git clone https://github.com/Adeyemi0/zillow_scraper.git
    cd zillow_scraper
    ```
 
