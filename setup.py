@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='zillow_scraper',
-    version='0.1.0',
-    author='Your Name',
+    version='0.1.1',
+    author='Adeyemi',
     author_email='xmine4346@gmail.com',
     description='A web scraper for Zillow real estate listings.',
     long_description=open('README.md').read(),
