@@ -171,7 +171,7 @@ def extract_data_from_page(session, location, listing_type, page):
                 property_data["soldprice"] = result.get("soldPrice")
             elif listing_type in ["for_sale", "for_rent"]:
                 property_data["soldprice"] = None
-                property_data["price"] = result.get("price") if listing_type == "for_sale" else "price restricted"
+                property_data["price"] = result.get("price") or "price restricted"
             
             properties.append(property_data)
     except KeyError as e:
